@@ -9,7 +9,7 @@ CONFIG.current_env = process.env.CURRENT_ENV || 'production';
 CONFIG.port = process.env.PORT || '3001';
 
 // Database
-CONFIG.mongodb_uri = process.env.MONGODB_URI || 'mongodb+srv://bankadmin:Superl0ck2018@cluster0-dhvdo.mongodb.net/onlinebank?retryWrites=true&w=majority';
+CONFIG.mongodb_uri = process.env.MONGODB_URI || 'mongodb+srv://bankadmin:<password>@cluster0-dhvdo.mongodb.net/onlinebank?retryWrites=true&w=majority';
 
 // JWT
 CONFIG.jwt_secret_key =
